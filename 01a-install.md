@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I installed Python 3 (3.6.1 to be exact) because the HackerRank pre-work is configured for that version only.
 
 ### Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> You can check what version of Python is installed by typing in 'python' in terminal. Prior to taking you to python, it'll tell you the version you'll be working in.
 
  
 
