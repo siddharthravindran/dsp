@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will use vim because it seems to have a manageable learning curve, is powerful and advanced enough for programming, highly configurable, and is not mouse-dependent.
 
 --
 
@@ -89,6 +89,5 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> I will use PyCharm as my graphical editor because it's highly configured right off the bat, has great code completion, fantastic error checking and fixing, and supports scientific packages. Some useful keyboard shortcuts are ctrl-shift-space for smart code completion, cmd-option-[ for going to the start of the block (if, for, etc.), and cmd - / for comments. A few ways in which you could customize PyCharm is by appointing a default PyCharm browse in which PyCharm will open HTML files, by integrating Terminal, and configuring color preferences and font types.
  
