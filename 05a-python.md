@@ -12,7 +12,9 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists and tuples are similar because they both store elements, maintain their order, and can have elements of any type. They're different because tuples are immutable whereas lists are mutable, use () while lists use [], and tuples generally contain elements that represent different concepts while lists have elements that represent similar concepts. 
+
+Tuples can work as keys in dictionaries because they cannot be changed.
 
 ---
 
@@ -20,7 +22,9 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists and sets are similar because they both store elements of different data types. They're different because sets are unordered, immutable, can't have any duplicates, and require their elements to be hashable. 
+
+It is faster to find an element in a set because you don't have to iterate through each element to find the requested one. Rather, since the hash function outputs the hash value that represents the input's position in the set, it just needs to check to see if the input is at the position determined by the hash. Thus, the size of the set doesn't matter with regards to the speed of this process.
 
 ---
 
@@ -28,7 +32,13 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lambda is a way to create a temporary function that you only need for that particular instance. 
+
+x = [(1,7), (1,3), (3,4,5), (2,2)]
+x.sort(key = lambda x: x[1])
+
+y = lambda x: x/2
+y = lambda x: x**2
 
 ---
 
@@ -36,8 +46,25 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions are a concise way to create lists based off a pre-existing list. 
 
+x = [1, 2, 4, 5, 7, 8, 10, 12, 14]
+[(i**3) / 2 for i in x]
+list(map(lambda x: x**3 / 2, x))
+
+[i for i in x if i % 4 == 0]
+list(filter(lambda x: x % 4 == 0, x))
+
+If you're calling an already-defined function on each element, map() is faster than list comprehension. But when evaluating a random expression, list comprehension is faster than using map() because map() incurs an extra function call for each element.
+
+Set Comprehensions:
+
+{s**2 for s in range(10)}
+{s for s in range(3,33) if s % 4 == 0}
+
+Dictionary Comprehensions:
+{y: x**2 for (y, x) in zip(string.ascii_lowercase, range(26))}
+{x: x**3 for x in range(10)}
 ---
 
 ### Complete the following problems by editing the files below:
