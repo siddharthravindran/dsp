@@ -8,6 +8,7 @@ def PercentileRank(scores, your_score):
 
     percentile_rank = 100.0 * count / len(scores)
     return percentile_rank
+
             
   first_cdf = thinkstats2.Cdf(firsts.totalwgt_lb, label='first')
   other_cdf = thinkstats2.Cdf(others.totalwgt_lb, label='other')
