@@ -2,11 +2,15 @@
 
 
 pmf = thinkstats2.Pmf(resp.numkdhh, label='actual')
+
 thinkplot.Pmf(pmf)
+
 thinkplot.Config(xlabel = 'Number of Children', ylabel = 'PMF')
 
 >> new_pmf = pmf.Copy(label = 'Biased')
+
 for x, p in new_pmf.Items():
+
     new_pmf.Mult(x, x)
 
 new_pmf.Normalize()
