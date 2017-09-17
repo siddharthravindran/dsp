@@ -16,7 +16,9 @@ for x, p in new_pmf.Items():
 new_pmf.Normalize()
 
 thinkplot.PrePlot(2)
+
 thinkplot.Pmfs([pmf, new_pmf])
+
 thinkplot.Config(xlabel = 'Number of Chidren', ylabel = 'PMF')
 
 pmf.Mean()
