@@ -99,7 +99,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist statistics solely rely on the sample size in order to determine the probability distribution. They do not take into account any other probability distributions or information that could influence the desired distribution. On the other hand, Bayes statistics factors into any information that could play a role in shaping the probability distribution at hand, including information that's available prior to collecting any data.
 
 ---
 
